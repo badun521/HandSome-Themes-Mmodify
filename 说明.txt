@@ -1,0 +1,8 @@
+这个项目大概写了3天，由于Edge Ie 下有些不兼容，于是便弃坑了，需要的可以自己拿去改改。
+
+
+将HandSome-demo目录下的文件替换掉至主题目录相应位置，由于是基于HandSome 4.2 Pro写的  所以目前暂时不清楚其他版本是否兼容
+
+图片文件与css,js文件随意放，但是记得修改主题 header.php 与 footer.php里面的引用路径
+
+博客：lolicm.com

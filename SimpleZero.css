@@ -1,0 +1,295 @@
+/*响应式布局*/
+@media screen and (min-width: 768px) and (max-width: 1920px){
+    /*.panel{width:800px;}
+    .panel-small{width:800px;}
+    .bg-light.lter{width:1000px;margin-top:20px;}*/
+    .b-a{width:800px;}
+    .wrapper-md>#comments{padding: 10px 30px 20px 30px;}
+    .wrapper-md article, .wrapper-md>#comments{border-radius: 15px;overflow: hidden;}
+    .wrapper-md .panel, .wrapper-md .panel-small, .wrapper-md>#comments{background-color: rgba(255,255,255,.9);}
+    .wrapper-md>#comments, .wrapper-md>.blog-post, .wrapper-md>.breadcrumb, .m-t-lg.m-b-lg, .wrapper-md>.no_search_result{max-width: 800px;margin-left: auto;margin-right: auto;}
+    .entry-content{background-color: rgba(255,255,255,0);}
+    
+    .bg{
+        background-image: url(https://zerocomic.com/images/2018/01/17/59735fb9c373b.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: fixed;
+        z-index: -1;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: all .3s;
+}
+
+.bg-dark{
+    background-color: rgba(255,255,255,0);
+}
+
+.hbox .col{
+    background-color:#23232391;
+}
+
+#sidebar{
+    background-color: rgba(255,255,255,0);
+}
+
+.b-l{
+    border-left: none;
+}
+
+.body{
+    color: #ffffff;
+}
+
+.bg-auto:before{
+    position:static;
+}
+
+.bg-auto.b-l:before{
+    margin-left: 0px;
+}
+
+.list-group-item{
+    background-color:rgba(255,255,255,0);
+}
+
+/*#widget-tabs-4-hots{
+    color:#FFF;
+}
+*/
+#sidebar{
+     color:#FFF;
+}
+
+.app-aside-fixed .aside-wrap{
+    background-color: #23232391;
+}
+
+#post-panel{
+    background-color:#ffffff00;
+}
+
+.bg-light.lter h1{
+    font-size:30px;
+    color:#FFF;
+    margin-left:-1px;
+}
+
+.aside-wrap span{
+    color:#FFF;
+}
+
+.bg-dark .text-muted{
+    color:#ffffff!important;
+}
+
+.bg-danger .dker, .bg-danger.dker{
+    background-color: #1bc70f85;
+}
+
+.bg-light{
+    color: #ffffff;
+    background-color: #23232391;
+}
+
+.alert-warning{
+    color: #ffffff;
+    background-color: #16baec82;
+    border-color: #16baec82; 
+    /*margin-top: 15px;*/
+    /*width: 1200px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-dark .dk, .bg-dark.dk{
+    background-color: #ffffff;
+}
+
+.m-l-xs{
+    margin-left:15px;
+}
+
+.b-a {
+    border: 1px solid #00c6ff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.bg-white {
+    color: #ffffff;
+    background-color: #23232391;
+}
+
+#tag_toc{
+    background-color: rgba(255,255,255,0);
+}
+
+textarea#comment{
+    background-color: #6bc4ff4a;
+}
+
+#my-info{
+    color:#FFFFFF;
+}
+
+.wrapper.b-b.bg h1{
+    color:rgba(255,255,255,0);
+}
+
+.bg-dark .dk, .bg-dark.dk{
+    background-color: rgba(255,255,255,0);
+}
+
+.app-content-body{
+    margin-left:-1px;
+}
+
+.b-t{
+    border-top: none;
+    margin-left: -1px;
+}
+
+/*公告*/
+.bg-light.lter{
+    border-radius: 15px;
+    cursor: pointer;  
+    transition: all 0.6s;
+    margin-left: auto;
+    margin-right:auto;
+    border: none;
+    background-color:#23232391;
+
+}
+
+/*滚动条*/
+::-webkit-scrollbar{
+    width:8px!important;
+    height:8px!important
+    }
+
+*::-webkit-scrollbar-thumb{
+    border-radius:4px;
+    background-color:#1badf2!important
+    }
+
+*::-webkit-scrollbar-track-piece{
+    background:#FFF!important
+    }
+
+*::-webkit-scrollbar-thumb:hover{
+    background-color:#e4cc5a!important
+    }
+
+*::-webkit-scrollbar-thumb:active{
+    background-color:#e4cc5a!important
+}
+
+.bg-light.lter:hover{
+    transform: scale(1.03);
+}
+
+/*分割线*/
+}
+
+
+
+/*首页文章版式圆角化,整体大小位置*/
+.panel{
+	border: none;
+	border-radius: 15px;
+	margin-left: auto;
+    margin-right: auto 
+}
+
+.panel-small{
+	border-radius: 15px 0px 15px 0px;
+	margin-left: auto;
+    margin-right: auto   
+}
+
+.item-thumb{
+	border-radius: 15px;  
+}
+
+/*隐藏top按钮*/
+.topButton{
+	display:none;
+}
+
+/*首页头像转动*/
+.thumb-lg{
+	width:130px;
+}
+
+.avatar{
+    -webkit-transition: 0.4s;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out; 
+}
+
+.avatar:hover{
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+}
+
+#aside-user span.avatar{
+	animation-timing-function:cubic-bezier(0,0,.07,1)!important;
+	border:0 solid
+}
+
+#aside-user span.avatar:hover{
+	transform:rotate(360deg) scale(1.2);
+	border-width:5px;
+	animation:avatar .5s
+}
+
+/*首页文章a标签颜色渐变*/
+.index-post-title a:hover{
+     color:#58ffac;
+     transition:color 0.2s linear
+}
+
+/*首页文章图片获取焦点放大*/
+.item-thumb{
+    cursor: pointer;  
+    transition: all 0.6s;  
+}
+
+.item-thumb:hover{
+	  transform: scale(1.03);  
+}
+
+.item-thumb-small{
+	cursor: pointer;  
+    transition: all 0.6s;
+}
+
+.item-thumb-small:hover{
+	transform: scale(1.03);
+}
+
+/*返回顶部喵！*/
+.back-to-top{
+	cursor: pointer;
+    position: fixed;
+    right: 80px;
+    top: -900px;
+    z-index: 2;
+    width: 70px;
+    height: 900px;
+    background: url(https://lolicm.com/images/scroll.png);
+    transition: all .5s ease-in-out;
+    opacity: 1;
+}
+
+@media (max-width:1000px){
+    .back-to-top{
+        display:none!important
+        }
+}
